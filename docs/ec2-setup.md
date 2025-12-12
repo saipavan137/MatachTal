@@ -23,6 +23,8 @@ Since we have automatically uploaded your template to S3, you can deploy it dire
 7.  Click **Next**.
 8.  **Stack details**:
     *   **Stack name**: `MatchTal-Stack`
+    *   **VpcId**: Select your default VPC (it usually starts with `vpc-`).
+    *   **SubnetId**: Select any subnet in that VPC (it usually starts with `subnet-`).
     *   **InstanceType**: `t3.small` (Recommended).
     *   **KeyName**: Select your `matchtal-key`.
     *   **AllowedIP**: `0.0.0.0/0` (or your IP).

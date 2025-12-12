@@ -1,0 +1,44 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+motor==3.3.2
+pymongo==4.6.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.0
+
+# Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Security middleware
+slowapi==0.1.9
+
+# Logging
+python-json-logger==2.0.7
+
+# AWS SDK (for S3 integration)
+boto3==1.29.7
+
+# HTTP client (for auth service calls if needed)
+httpx==0.25.2
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+mongomock==4.1.2
+
+# Code quality
+black==23.11.0
+flake8==6.1.0
+
+
+
+
+
